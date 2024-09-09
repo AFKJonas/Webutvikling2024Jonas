@@ -15,54 +15,55 @@
         <h3>Registrering:</h3>
         <form method="post">
             <label>Navn</label>
-                    <input for="navn" name="navn" placeholder="navn her..." id="navn" maxlength="45" pattern="[A-Za-zæøåÆØÅ ]{2,}" required><label>
+                    <input name="navn" placeholder="navn her..." id="navn" maxlength="45" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
                 E-post:
-                <input type="email" name="email" placeholder="eksempel@gmail.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required></label>
+                <input type="email" placeholder="eksempel@gmail.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
             <label>
                 passord:
-                <input type="passord" placeholder="passord" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>  
+                <input type="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>  
             </label>
+                <label>
+                    Alder:
+                    <input type="number" placeholder="alder" min="18" max="99" required>
+                </label>
             <label>
-                Alder:
-                <input type="number" placeholder="alder" min="18" max="99" required>
+                Telefon-nr:
+                    <input type="tel" maxlength="12" minlength="8" pattern="[0-9]{8,12}" required>  
             </label>
-            <label>
-              Telefon-nr:
-              <input type="telefon" min="8" max="12" pattern="[0-9]{8,12}" required  >  
-            </label>
-            <label>
-                Dato:
-                <input type="date" max="2023-12-31" required >
-            </label>
-            <label>
-                Kjønn:
-                <label class="radio" required>
-                    <input type="radio" name="required">
+                <label>
+                    Dato:
+                    <input type="date" max="2023-12-31" required >
+                </label>
+            Kjønn:
+                <label class="radio">
+                    <input type="radio" required>
                     mann
                 </label>
-                <label class="radio">
-                    <input type="radio" name="required" /> 
-                    kvinne
-                </label>
+            <label class="radio">
+                <input type="radio" required> 
+                kvinne
+            </label>
                 <label class="Annet">
-                    <input type="radio" name="required"/>
+                    <input type="radio" required>
                     Annet
                 </label>
-                </label>
-        </form>
+
+        
         <label>
             Land:
                 <select name="land" required>
-                    <option value="mann">Norge</option>
-                    <option value="kvinne">Sverige</option>
-                    <option value="annet">Danmark</option>
+                    <option value="" disabled selected>Velg et land...</option>
+                    <option value="Norge">Norge</option>
+                    <option value="Sverige">Sverige</option>
+                    <option value="Danmark">Danmark</option>
+                </select>
         </label>
-        <label>
-            Avkrysningsboks:
-            <input type="checkbox" required>
-        </label>
-        <input type="submit" value="send melding">
-
+            <label>
+                Avkrysningsboks:
+                <input type="checkbox" required>
+            </label>
+                <input type="submit" value="send melding">
+            </form>
     </section>
 </main>
 
