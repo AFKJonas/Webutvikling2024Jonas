@@ -1,12 +1,27 @@
-#hoved-logo {
+
+header{
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-image: url(sunset-7097102_1280.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
 }
 
-.velkommen {
-    text-transform: uppercase;
+h1 {
+    color: whitesmoke;
+    top: 100%;
+    left: 100%;
+    text-align: center;
+    padding: 1rem;
 }
+
+
+
+
+
 
