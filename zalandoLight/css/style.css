@@ -1,5 +1,5 @@
 html{
-  font-size: 18px;
+  font-size: 18px calc(1rem + 1vw);
 }
 
 *{
@@ -9,6 +9,14 @@ html{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1{font-size: 2rem;}
+h2{font-size: 1.8rem;}
+h3{font-size: 1.6rem;}
+h4{font-size: 1.4rem;}
+p, a{font-size: 1rem;}
+
+
 /*GRID under*/
 #grid-container{
   display: grid;
