@@ -1,0 +1,16 @@
+.horizontal{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+/*Desktop
+  @media only screen and (min-width 680px){
+
+  }
+*/
+
+
+
+
+
