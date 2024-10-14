@@ -1,8 +1,61 @@
-.horizontal{
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: rgba(218, 216, 216, 0.781);
+  padding: 30px;
+  margin: 30px;
+}
+
+header nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#horizontal{
     display: flex;
-    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
+#horizontal li{
+  margin-left: 20px;
+}
+
+#horizontal a, #logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#enFr-enFr{
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  padding:0;
+  margin: 0%;
+  border: 0;
+}
+
+main section a{
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#toFr-enFr{
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #4073ff;
+  color: rgb(255, 255, 255);
+}
 
 /*Desktop
   @media only screen and (min-width 680px){
