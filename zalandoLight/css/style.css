@@ -37,10 +37,22 @@ p, a{font-size: 1rem;}
   display:flex;
   /*faller under hverandre linjen under*/
   flex-wrap: wrap;
+  background-color: #efefef;
+  justify-content: space-between;
 
   img{
     max-width: 70%;
   }
+}
+
+#banner div{
+  width: 30%;
+  padding: 2rem;
+}
+
+#banner div h2{
+  font-size: 1rem;
+
 }
 
 main{
@@ -146,7 +158,10 @@ img{
   #menu{
     display: flex !important;
   }
+  h3{font-size: 1.3rem;}
+  p, a{font-size: 0.6rem;}
 }
+
 /*MIbil*/
 @media only screen and (max-width:800px){
   #menu{
