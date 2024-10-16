@@ -51,6 +51,14 @@ form label i {
 form label input {
   border: none;
 }
+form input {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: black;
+}
 
 * {
   box-sizing: border-box;

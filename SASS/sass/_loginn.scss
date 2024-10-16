@@ -31,7 +31,7 @@ form{
 
     }
     input{
-        @include box(200px auto, 1rem, 10px);
+        @include box(200px, auto, 1rem, 10px);
         background-color: $black;
     }
 }
