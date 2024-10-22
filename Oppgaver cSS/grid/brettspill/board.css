@@ -65,7 +65,7 @@ grid-column-start, grid-column-end, grid-row-start, grid-row-end,
 */
 
 #cell-1{
-    grid-column-start: 1;
+    grid-column-start: 1;   /*Mynt?*/
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
@@ -125,10 +125,10 @@ grid-column-start, grid-column-end, grid-row-start, grid-row-end,
 }
 
 #cell-9{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-column-start: 5;   /*Opp*/
+    grid-column-end: 6;     /*Ned*/
+    grid-row-start: 5;      /*Venstre*/
+    grid-row-end: 6;        /*Høyre*/
 }
 /*Slutt på avsporing*/
 
@@ -172,100 +172,100 @@ grid-column-start, grid-column-end, grid-row-start, grid-row-end,
 /*Slutt på avsporing*/
 
 #cell-15{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 9;   /*Til venstre*/
+    grid-column-end: 9;   /*Til høyre*/
+    grid-row-start: 5;      /*Opp*/
+    grid-row-end: 6;        /*Ned*/
 }
 
 #cell-16{
     grid-column-start: 9;
     grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 #cell-17{
     grid-column-start: 9;
     grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #cell-18{
-    grid-column-start: 9;
+    grid-column-start: 8;
     grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 /*Avsporing*/
 
 #cell-19{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 /*Slutt på avsporing*/
 
 #cell-20{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 7;          /*Drage?*/
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 #cell-21{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 7;       /*Sko?*/
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 8;
 
 }
 
 #cell-22{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 3;
 
 }
 
 #cell-23{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;          /*Diamant?*/
+    grid-row-start: 3;  
+    grid-row-end: 2;
 
 }
 
 #cell-24{
-    grid-column-start: 9;
-    grid-column-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 7;
 
 }
 
 #cell-25{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
 }
 
 #cell-26{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
 }
 
 #cell-27{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
 }
