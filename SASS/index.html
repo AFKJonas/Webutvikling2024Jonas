@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ikoner/css/solid.css"/>
-    <link rel="stylesheet" href="SASS/ikoner/css/fontawsome.css"/>
-    <link rel="stylesheet" href="ikoner/css/brands.css"/>
+    <link rel="stylesheet" href="ikoner/css/solid.css">
+    <link rel="stylesheet" href="SASS/ikoner/css/fontawsome.css">
+    <link rel="stylesheet" href="ikoner/css/brands.css">
     <link rel="stylesheet" href="css/main.css">
     <title>SASS</title>
+    <style>
+        input{
+            background-color: #fff !important;
+            color: #000 !important;
+        }
+    </style>
 </head>
 <body>
     <div class="flex-container-center">
         <main>
             <form>
                 <h3>Logg inn</h3>
-                <label>
+                <label aria-label="E-post">
                     <i class="fa-solid fa-envelope"></i>
                     <input type="email" placeholder="DaEmail@gmail.com">
                 </label>
@@ -23,6 +29,9 @@
                     <input type="password" placeholder="*****">
                 </label>
                 <input type="submit" value="Logg inn">
+                <label aria-label="søk">
+                    <input type="search" id="search">
+                </label>
             </form>  
         </main>
     </div>  
