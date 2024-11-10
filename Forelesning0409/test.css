@@ -1,0 +1,60 @@
+/*start på Style/font*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    padding: 1px;
+    margin: 10px;
+}
+
+/*slutt på Style/font*/
+
+/*start på header*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+/*søkebar*/
+header form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchfelt {
+    padding: 10px 30px 10px 10px; /* Juster padding for å gi plass til ikonet */
+    border-radius: 20px;
+    border: 2px solid #000; /* Endret border */
+    background-color: transparent;
+    color: inherit;
+    box-shadow: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Juster avstanden fra høyre */
+    pointer-events: none; /* Sørg for at ikonet ikke blokkerer klikk */
+}
+
+/*slutt på søkebar*/
+
+#venstreForLogo {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.høyreForLogo {
+    display: flex;
+    flex-direction: row;
+}
+
+/*slutt på header*/
